@@ -16,9 +16,7 @@ export default {
     let ctx = context;
 
     let closeModal = () => {
-      console.log(context);
       ctx.emit('toggle-modal');
-      //this.$emit('toggle-modal');
     }
 
     return {
